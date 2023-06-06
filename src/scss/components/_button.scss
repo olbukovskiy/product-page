@@ -1,0 +1,9 @@
+%button {
+  padding: rem(15px) rem(35px);
+}
+
+.button--white {
+  @extend %button;
+  color: getColor("secondary");
+  background-color: getColor("primary");
+}

@@ -1,0 +1,24 @@
+{
+  "name": "product-page",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /product-page/"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.1",
+    "@parcel/transformer-webmanifest": "^2.9.1",
+    "parcel": "latest",
+    "posthtml-include": "^1.7.4"
+  },
+  "dependencies": {
+    "@parcel/packager-raw-url": "^2.9.1",
+    "buffer": "^6.0.3",
+    "i": "^0.3.7",
+    "npm": "^9.6.7",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-reporter-static-files-copy": "^1.5.0",
+    "swiper": "^9.3.2"
+  }
+}

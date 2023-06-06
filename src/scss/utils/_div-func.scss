@@ -1,0 +1,3 @@
+@function divide($value, $divider) {
+  @return #{calc($value / $divider)};
+}
